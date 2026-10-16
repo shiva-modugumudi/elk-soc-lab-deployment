@@ -6,11 +6,6 @@ A practical guide to building a two-VM security monitoring lab and tracing Windo
 
 [Start the deployment guide](docs/deployment-guide.md) · [Download the Word guide](docs/ELK_SOC_Lab_Deployment_Guide.docx) · [Validation checklist](docs/validation-checklist.md)
 
-## Project goal
-
-Provide a repeatable learning lab that another person can follow from clean virtual machines. The walkthrough covers installation, agent enrollment, Windows log collection, harmless test activity, and troubleshooting checkpoints.
-
-**Project status:** Documentation prepared. End-to-end deployment evidence has not yet been recorded in this repository. The guide contains a version availability checkpoint; verify its pinned release before installation.
 
 ## Lab architecture
 
