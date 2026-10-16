@@ -1,14 +1,5 @@
 # ELK SOC Lab Deployment Guide
 
-[Back to project overview](../README.md)
-
-**Validation status:** Deployment has not been tested end to end. Confirm package availability and complete every checkpoint before marking the build successful.
-
-
-A new standalone guide for building a small lab and confirming that Windows security telemetry reaches Elasticsearch and can be searched in Kibana.
-
-Prepared 16 October 2026  |  Beginner walkthrough  |  New document
-
 ### What you will build
 
 One Ubuntu server runs Elasticsearch, Kibana and Fleet Server. One Windows endpoint runs Sysmon and Elastic Agent. Fleet manages the agent; the Windows agent sends event data directly to Elasticsearch. Kibana searches and displays that data. Logstash is not required for this design.
