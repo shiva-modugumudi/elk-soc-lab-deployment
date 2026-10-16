@@ -1,0 +1,11 @@
+.env
+.env.*
+!.env.example
+*.key
+*.p12
+*.pfx
+*.pem
+*token*
+*password*
+.DS_Store
+Thumbs.db
