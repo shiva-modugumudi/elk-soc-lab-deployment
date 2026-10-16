@@ -451,15 +451,3 @@ Do not repeatedly reinstall or manually delete its directory. Check its current 
 ### Single node cluster is yellow
 
 Yellow can be expected because replicas need another node. Confirm primary shards are assigned and test ingestion. A red cluster, unavailable primary shard or new indexing error requires investigation.
-
-## 10 References and interview handover
-
-Official documentation checked while preparing this guide. Product screens and package availability can change. The links below provide the detailed vendor procedures for the specific topics; this guide adapts them to a two-VM lab.
-
-### What to submit to the interviewer
-
-Submit this guide together with your completed build record and redacted screenshots from the actual lab. Identify the real versions, IP substitutions and any deviations. Let the reviewer start from clean VMs and follow the sequence; record any missing instruction they encounter.
-
-Explain the roles accurately: Sysmon generates endpoint telemetry; Elastic Agent collects and forwards logs; Fleet Server manages agents; Elasticsearch stores and indexes data; Kibana supports searching and investigation. Basic ingestion alone does not demonstrate configured detections or automated incident response.
-
-Only describe work you actually performed. A suitable statement after successful validation is: “I deployed a two-VM Elastic lab, onboarded a Windows endpoint through Fleet, enabled Sysmon and PowerShell logging, and confirmed process creation and script block events in Kibana.”
